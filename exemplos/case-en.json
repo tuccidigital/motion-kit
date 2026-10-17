@@ -1,0 +1,67 @@
+{
+  "idioma": "en-US",
+  "projeto": "P01 · Central de Aprovações",
+  "ficticio": true,
+  "gancho": "An urgent purchase request stuck in the inbox of someone who is traveling.",
+  "problema": {
+    "personagem": "Helena Siqueira, purchasing manager",
+    "texto": "Nobody knows where each request is.",
+    "icones": [
+      "Mail",
+      "Clock",
+      "QuestionCircle"
+    ]
+  },
+  "processo": [
+    {
+      "rotulo": "POWER APPS",
+      "titulo": "Requester opens the request"
+    },
+    {
+      "rotulo": "POWER AUTOMATE",
+      "titulo": "Rule picks the approver"
+    },
+    {
+      "rotulo": "TEAMS",
+      "titulo": "Manager approves on the phone"
+    },
+    {
+      "rotulo": "RESULT",
+      "titulo": "Approved the same day"
+    }
+  ],
+  "telas": [
+    {
+      "arquivo": "pendente:gravacoes/nova-solicitacao.mp4",
+      "moldura": "desktop",
+      "inicio": 0,
+      "fim": 9,
+      "destaques": [
+        {
+          "t": 4,
+          "x": 0.72,
+          "y": 0.81,
+          "texto": "Approval chain shown before sending"
+        }
+      ]
+    },
+    {
+      "arquivo": "pendente:gravacoes/aprovacao-teams.mp4",
+      "moldura": "celular",
+      "inicio": 0,
+      "fim": 8,
+      "destaques": []
+    }
+  ],
+  "resultado": [
+    "Every decision with date, channel and comment",
+    "Delays escalate on their own",
+    "No license beyond Microsoft 365"
+  ],
+  "chamada": "Book a discovery call at tuccidigital.com",
+  "audio": {
+    "trilha": null,
+    "locucao": null
+  },
+  "legendas": "auto"
+}

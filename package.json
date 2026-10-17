@@ -1,0 +1,33 @@
+{
+  "name": "tucci-motion-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vídeos de case e peças de LinkedIn da Tucci Digital Solutions gerados a partir de JSON (Remotion).",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "tsx scripts/render.ts",
+    "validar": "tsx scripts/validar.ts",
+    "exemplos": "tsx scripts/render-exemplos.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test scripts/*.test.ts"
+  },
+  "dependencies": {
+    "@fluentui/react-icons": "^2.0.344",
+    "@remotion/bundler": "^4.0.536",
+    "@remotion/cli": "^4.0.536",
+    "@remotion/fonts": "^4.0.536",
+    "@remotion/renderer": "^4.0.536",
+    "@remotion/zod-types": "^4.0.536",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.536",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "5.9"
+  }
+}

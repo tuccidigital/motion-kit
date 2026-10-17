@@ -1,0 +1,12 @@
+{
+  "idioma": "pt-BR",
+  "linguagem": "Power Fx",
+  "titulo": "Status pela chave, nunca pelo texto da tela",
+  "codigo": "// Frágil: quebra quando alguém renomeia o rótulo\nFilter(Pedidos, Status.Value = \"Em andamento\")\n\n// Robusto: compara a chave que não muda\nFilter(Pedidos, StatusChave = \"AND\")",
+  "explicacao": [
+    "O rótulo é texto de interface: muda com idioma e com revisão de texto.",
+    "Guarde uma chave curta numa coluna própria e compare por ela.",
+    "No app, mostre o rótulo; na regra, use a chave."
+  ],
+  "chamada": "Mais dicas em tuccidigital.com/blog"
+}

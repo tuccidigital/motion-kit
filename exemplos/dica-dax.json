@@ -1,0 +1,11 @@
+{
+  "idioma": "pt-BR",
+  "linguagem": "DAX",
+  "titulo": "Calendário que não para na virada do ano",
+  "codigo": "Calendario =\nVAR Fim = DATE(YEAR(MAX(Pedidos[Data])), 12, 31)\nVAR Inicio = DATE(YEAR(MIN(Pedidos[Data])), 1, 1)\nRETURN CALENDAR(Inicio, Fim)",
+  "explicacao": [
+    "Datas fixas fazem o relatório \"parar\" quando chegam dados do ano novo.",
+    "Derive o intervalo dos próprios dados e feche no fim do ano.",
+    "Marque a tabela como tabela de datas no modelo."
+  ]
+}

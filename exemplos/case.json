@@ -1,0 +1,25 @@
+{
+  "idioma": "pt-BR",
+  "projeto": "P01 · Central de Aprovações",
+  "ficticio": true,
+  "gancho": "Pedido urgente parado na caixa de e-mail de quem está viajando.",
+  "problema": {
+    "personagem": "Helena Siqueira, gerente de Compras",
+    "texto": "Ninguém sabe onde cada pedido está.",
+    "icones": ["Mail", "Clock", "QuestionCircle"]
+  },
+  "processo": [
+    { "rotulo": "POWER APPS", "titulo": "Solicitante abre o pedido" },
+    { "rotulo": "POWER AUTOMATE", "titulo": "Regra define o aprovador" },
+    { "rotulo": "TEAMS", "titulo": "Gestor aprova no celular" },
+    { "rotulo": "RESULTADO", "titulo": "Pedido aprovado no mesmo dia" }
+  ],
+  "telas": [
+    { "arquivo": "pendente:gravacoes/nova-solicitacao.mp4", "moldura": "desktop", "inicio": 0, "fim": 9, "destaques": [{ "t": 4, "x": 0.72, "y": 0.81, "texto": "Cadeia prevista antes de enviar" }] },
+    { "arquivo": "pendente:gravacoes/aprovacao-teams.mp4", "moldura": "celular", "inicio": 0, "fim": 8, "destaques": [] }
+  ],
+  "resultado": ["Cada decisão com data, canal e comentário", "Atrasos escalados sozinhos", "Sem licença extra além do Microsoft 365"],
+  "chamada": "Agende um diagnóstico em tuccidigital.com",
+  "audio": { "trilha": null, "locucao": null },
+  "legendas": "auto"
+}

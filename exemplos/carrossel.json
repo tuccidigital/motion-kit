@@ -1,0 +1,12 @@
+{
+  "idioma": "pt-BR",
+  "ficticio": false,
+  "slides": [
+    { "rotulo": "Power Apps · delegação", "titulo": "Seu app funciona com 200 itens e some com dados em 3.000" },
+    { "rotulo": "O que acontece", "titulo": "Fórmula não delegável filtra no aparelho", "texto": "O Power Apps baixa só os primeiros 500 registros (até 2.000, no máximo) e filtra ali. O resto não aparece, e não há mensagem de erro." },
+    { "rotulo": "Costuma ser seguro", "titulo": "Igualdade e StartsWith no SharePoint", "codigo": "Filter(Pedidos,\n  Status.Value = \"Em andamento\",\n  StartsWith(Title, txtBusca.Text))" },
+    { "rotulo": "Costuma quebrar", "titulo": "Três armadilhas comuns", "lista": ["Search() sobre lista do SharePoint", "O operador in para \"contém\"", "Função na coluna antes de comparar: Lower(Title) = ..."] },
+    { "rotulo": "Como evitar", "titulo": "Três hábitos", "lista": ["Não entregue com o aviso amarelo aceso", "Indexe as colunas que você filtra", "Teste com 5.000 itens, não com 20"] }
+  ],
+  "chamada": "Tem um app que some com dados? A gente olha com você."
+}
